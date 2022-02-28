@@ -50,21 +50,21 @@ function my_keydown(e)
 			console.log("arrow key");
 		}
 
-		else if(keyPressed =17)
+		else if(keyPressed ==17)
 		{
             specialkey()
 			document.getElementById("d1").innerHTML="You pressed Special key";
 			console.log("special key");
 		}
 
-		else if(keyPressed =18)
+		else if(keyPressed ==18)
 		{
             specialkey()
 			document.getElementById("d1").innerHTML="You pressed Special key";
 			console.log("special key");
 		}
 
-		else if(keyPressed =27)
+		else if(keyPressed ==27)
 		{
             specialkey()
 			document.getElementById("d1").innerHTML="You pressed Special key";
@@ -97,6 +97,11 @@ function arrowkey()
 function specialkey()
 {
 	img_image="spkey.png";
+	add();
+}
+function otherkey()
+{
+	img_image="otherkey.png";
 	add();
 }
 }
